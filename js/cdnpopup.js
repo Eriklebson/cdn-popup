@@ -1,3 +1,3 @@
 $(function(){
-    $("#includedContent").load("https://cdn.jsdelivr.net/gh/Eriklebson/cdn-popup@be7bc9cc0a0fe1c3b3788cad18f948496c9fe6bc/popup.html");
+    $("#includedContent").load("https://cdn.jsdelivr.net/gh/Eriklebson/cdn-popup@c8993bf18894f8d6acf62a951eb02aec18cbe693/popup.html");
 })
