@@ -1,9 +1,7 @@
 var date = new Date(Date.now())
 date.setDate(date.getDate()+180)
-console.log(date)
 if (Cookies.get('aceitar') != 1){
     document.getElementById('modal-politica').style.display = 'block';
-    console.log("Entrou");
 }
 function fechar(){
     document.getElementById('modal-politica').style.display = 'none';
@@ -19,3 +17,17 @@ function abrir(){
 function fechar2(){
     document.getElementById('privacidade').style.display = 'none';
 }
+$(function(){ 
+    $.ajax({
+        url:"politicadeprivacidade.html",
+        type: 'HEAD',
+        success: function(){
+            $("#includedpolitica").load("politicadeprivacidade.html");
+            console.log("Existe")
+        },
+        error: function(){
+            $("#includedpolitica").append("<h3>Em breve</h3>");
+            console.log("Não Existe")
+        }
+    })
+})
