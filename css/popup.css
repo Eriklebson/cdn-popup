@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.modal-politica{
+    display: none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url('../img/page-privacy.jpg') right;
+    z-index: 1;
+    position: fixed;
+    bottom: 10%;
+    left: 3%;
+    margin: auto;
+    width: 500px;
+    border-radius: 10px;
+}
+.fechar-politica{
+    color: red;
+    padding: 1px 8px;
+    border: 1px solid red;
+    border-radius: 50px;
+    cursor: pointer;
+    height: 25px;
+}
+.header-politica{
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+.body-pilitica{
+    padding: 15px;
+}
+.footer-politica{
+    text-align: end;
+    padding: 20px 15px;
+}
+.button-politica{
+    text-decoration: none;
+    padding: 10px;
+    border: none;
+    background-color: #428bca;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.button-politica:hover{
+    background-color: #336c9e;
+}
+.modal-privacidade{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 70%;
+    min-height: 500px;
+    height: 90%;
+    z-index: 9;
+    display: none;
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+.texto-privacidade{
+    text-align: center;
+}
+.header-privacidade{
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+.body-privacidade{
+    height: 80%;
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding: 30px;
+}
+.footer-privacidade{
+    text-align: end;
+    padding: 15px;
+}
+/* Smartphones (600px para baixo) */
+@media only screen and (max-width: 600px) {
+    .modal-politica{
+        width: 300px !important;
+    }
+}
+@media only screen and (max-height: 600px) {
+    .body-privacidade{
+        height: 65%;
+    }
+}
+@media only screen and (min-height: 600px) {
+    .body-privacidade{
+        height: 70%;
+    }
+}
+@media only screen and (min-height: 750px) {
+    .body-privacidade{
+        height: 75%;
+    }
+}
+@media only screen and (min-height: 900px) {
+    .body-privacidade{
+        height: 80%;
+    }
+}
+/* Dispositivos um pouco maiores, mas ainda pequenos (Pequenos Tablets e Smartphones + largos, 600px para cima) */
+@media only screen and (min-width: 600px) {
+    
+}
+
+/*Dispostivos Médios (Tablets deitados, 768px para cima) */
+@media only screen and (min-width: 768px) {
+    
+}
+
+/* Dispostivos Largos (laptops/desktops, 992px para cima) */
+@media only screen and (min-width: 992px) {
+    
+}
+/* Dispostivos Largos (laptops/desktops, 1024px para cima) */
+@media only screen and (min-width: 1024px) {
+    
+}
+
+/* Super Largos (Telas maiores laptops, desktops e até TVs, 1200px para cima) */
+@media only screen and (min-width: 1200px) {
+    
+}
