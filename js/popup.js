@@ -26,7 +26,7 @@ $(function(){
             console.log("Existe")
         },
         error: function(){
-            $("#includedpolitica").append("<h3>Em breve</h3>");
+            $("#includedpolitica").append("<h3>Politica de Privacidade em breve</h3>");
             console.log("Não Existe")
         }
     })
